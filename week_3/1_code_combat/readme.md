@@ -30,9 +30,23 @@ Translate your pseudocode into code and see if it achieves the goals. If it does
 ###3. Answer the following:
 When you are finished with all of the levels, answer the following questions. You may want to look at some resources on JavaScript before answering.
   - What is `this` referring to? Think programming-wise rather than in the terms of the game. 
-  - What does the `()` do in JavaScript?
-  - What is the point of the semicolons?
 
+‘this’ is an object in this case. It is referring to Tharin, the warrior we control and manipulate to create certain actions. So, Tharin is our object.
+
+
+  - What does the `()` do in JavaScript?
+	
+	() contains an optional list of parameters that will be available for use in the function's body.
+	Each parameter is a local variable that is available for use in the body of the function. 
+	Ex. age
+	function(age) {'List your age here:' age }; 
+  	Now when you type function(22) the output is:
+  	List your age here: 22
+
+  - What is the point of the semicolons?
+	
+	The semicolons are important because once the code is parsed, it helps the computer understand where one statement ends and another begins.
+	
 ## Reflect
 In the reflection section of your 'my_solution.js` file, reflect on your learning. Use the [reflection guidelines](../reflection_guidelines.md).. ***NOTE: Reflections are mandatory!***
 
