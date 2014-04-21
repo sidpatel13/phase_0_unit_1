@@ -235,8 +235,22 @@ var terah = {
 // __________________________________________
 // Reflection: Use the reflection guidelines
 // 
-// 
-// 
+// What parts of your strategy worked? What problems did you face?
+// I tried to test my code in the command line as much as I can. The main problem was debugging the code.
+// Also, in certain instances the test would not run. For example, I had trouble assigning the spouse property to variable adam.
+// What questions did you have while coding? What resources did you find to help you answer them?
+// I used google to get answers to questions like "how to access values of other variables within you properties". 
+// Some of the answers helped, for others I had to go through examples of object literals.
+// What concepts are you having trouble with, or did you just figure something out? If so, what?
+// I think the one concept I still can't figure out is how to assign a property in one variable a value of another variable.
+// Did you learn any new skills or tricks?
+// How confident are you with each of the learning objectives?
+// I'm somewhat confident. I still think there is so much more I can learn about JavaScript and assigning different values to
+// properties in object literal notation. I tried using functions within properties in object literals, but I can use more help.
+// Which parts of the challenge did you enjoy?
+// Writing the pseudocode was fun.
+// Which parts of the challenge did you find tedious?
+// Debugging was kind of a pain, since little syntax error can stop your code from running properly.
 // 
 // 
 // 
