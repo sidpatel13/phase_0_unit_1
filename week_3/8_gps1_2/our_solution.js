@@ -56,3 +56,22 @@ for (var i = 0; i < clients.length; i++) {
 
 
 //  Your Reflection:
+//What parts of your strategy worked? What problems did you face?
+//I think brainstorming together with my partner before approaching writing the code was very important.
+//I think we went in with the game plan and we relied on each others suggestions.
+//We also stuck to our roles as drivers and navigators well. I think we didn't always have a lot of time to look
+//things up so it was important to talk to each other to figure out the changes to make to the code.
+//What questions did you have while coding? What resources did you find to help you answer them?
+//I think questions usually pertained to "where exactly I should start". The first problem you can represent "adam",31,
+//and "Hi there" as values of variables, but instead we used a function. I think asking for help was important and relying
+//on each other and the instructor helped. 
+//What concepts are you having trouble with, or did you just figure something out? If so, what?
+//I think these concepts were the building blocks of more complex things you can do with them. Those are areas I'll need to work on.
+//Did you learn any new skills or tricks?
+//How confident are you with each of the learning objectives?
+//I have a good amount of confidence with each of the learning objectives.
+//Which parts of the challenge did you enjoy?
+//I think navigating was fun, especially since Drew was such a great driver. I felt he was already knew how to do parts of
+//the problem on his own, but didn't overstep any boundaries and allowed me to guide him. 
+//Which parts of the challenge did you find tedious?
+//I think testing our code to ensure it would work was a bit tedious especially since we had small little syntax errors.
