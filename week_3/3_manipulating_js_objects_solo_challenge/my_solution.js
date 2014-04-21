@@ -15,11 +15,17 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
-// Var adam = new Object()
+// Var adam = {
+          object={};
 }
+
 2. Give adam a name property with the value "Adam".
-// adam.name = "Adam";
+Var adam = {
+          object={};
+          name:"Adam";
 }
+
+
 3. Add a spouse property to terah and assign it the value of adam.
 
 var terah = {
@@ -167,6 +173,38 @@ var terah = {
 
 // __________________________________________
 // Write your code below.
+function Adam(spouse) {
+    if (spouse == "Terah") {
+      return spouse
+    } else {
+      return "Sorry wrong Spouse name!"
+    }
+  }
+
+  var adam = {
+  object:{},
+  name:"Adam",
+  spouse: Adam("Terah"),
+  children: {
+          carson : {
+            name: "Carson"
+          },
+          carter: {
+            name: "Carter"
+          },
+          colton: {
+            name: "Colton"
+          }
+  }         
+};
+
+function Terah(spouse) {
+    if (spouse == "Adam") {
+      return spouse;
+    } else {
+      return "Sorry, not the spouse" + spouse;
+    }
+  }
 
 var terah = {
   name: "Terah",
@@ -174,28 +212,21 @@ var terah = {
   height: 66,
   weight: 125,
   hairColor: "brown",
-  spouse: adam["name"];
+  spouse: Terah("Adam"),
   children: {
-        carson: 'Carson',  
-        carter: 'Carter',
-        colton: 'Colton'
-  };
-
+          carson : {
+            name: "Carson"
+          },
+          carter: {
+            name: "Carter"
+          },
+          colton: {
+            name: "Colton"
+          }
+  }     
 };
   
-  var adam = {
-  object:{},
-  name:"Adam",
-  spouse: function() {
-    name:"Terah";
-  }
-  children: {
-        carson: 'Carson',  
-        carter: 'Carter',
-        carter: 'Colton';
-  }
 
-};
 
 
 
