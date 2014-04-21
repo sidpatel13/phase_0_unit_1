@@ -15,39 +15,187 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
-
+// Var adam = new Object()
+}
 2. Give adam a name property with the value "Adam".
-
+// adam.name = "Adam";
+}
 3. Add a spouse property to terah and assign it the value of adam.
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 130,
+  hairColor: "brown",
+  eyeColor: "brown",
+
+}
+
+
 4. Change the value of the terah weight property to 125.
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  eyeColor: "brown",
+  spouse: adam;
+}
+
+
 
 5. Remove the eyeColor property from terah.
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 130,
+  hairColor: "brown",
+  spouse: adam;
+}
+
 
 6. Add a spouse property to adam and assign it the value of terah.
+Var adam = {
+  object:{};
+  name:"Adam";
+  spouse: terah;
+}
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  spouse: adam;
+  children: function() {
+        object={};
+  }
+}
+***check children
+
+
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
+
+  var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  spouse: adam;
+  children: function() {
+        object={};
+            carson: function(object) {
+                  object= {'Carson'};  
+        }
+  }
 
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
 
+
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  spouse: adam;
+  children: function() {
+        object={};
+        carson: function(object) {
+                  object= {'Carson'};  
+        }
+        carter: function(object) {
+                  object= {'Carson'};
+        }
+  }
+
+
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 130,
+  hairColor: "brown",
+  spouse: adam;
+  children: function() {
+        object={};
+        carson: function(object) {
+                  object= {'Carson'};  
+        }
+        carter: function(object) {
+                  object= {'Carter'};
+        }
+        colton: function(object) {
+                  object= {'Colton'};
+        }
+  }
+
+
+
 11. Add a children property to adam and assign it the value of terah children.
 
-
+  Var adam = {
+  object:{};
+  name:"Adam";
+  spouse: terah;
+  children: function() {
+        object={};
+        carson: function(object) {
+                  object= {'Carson'};  
+        }
+        carter: function(object) {
+                  object= {'Carter'};
+        }
+        colton: function(object) {
+                  object= {'Colton'};
+        }
+}
 */
 
 // __________________________________________
 // Write your code below.
 
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 125,
+  hairColor: "brown",
+  spouse: adam["name"];
+  children: {
+        carson: 'Carson',  
+        carter: 'Carter',
+        colton: 'Colton'
+  };
 
+};
+  
+  var adam = {
+  object:{},
+  name:"Adam",
+  spouse: function() {
+    name:"Terah";
+  }
+  children: {
+        carson: 'Carson',  
+        carter: 'Carter',
+        carter: 'Colton';
+  }
 
+};
 
 
 
