@@ -20,39 +20,53 @@
 
 // Initial Code
 //Part 1 of code
-this.moveTowardsMonkey();
+var me = new Object();
+
+me.moveTowardsMonkey();
 
 function Dodge(monkeyAttack) {
 	if (monkeyAttack = true) {
-		this.moveLeft();
+		me.moveLeft();
 	}
 };
 
-this.moveTowardsMonkey();
-this.attackNearbyEnemy();
+me.moveTowardsMonkey();
+me.attackNearbyEnemy();
 
 //Part 2 of code
 
-this.moveTowardsPrincess();
-this.say('Are you ok?');
-this.say('Follow me!');
+me.moveTowardsPrincess();
+me.say('Are you ok?');
+me.say('Follow me!');
 
 //Part 3 of code
 
-this.moveTowardsCastle();
-this.say('goodbye princes, nice rescuing you!')
+me.moveTowardsCastle();
+me.say('goodbye princes, nice rescuing you!')
 
 
 // Refactored Code
-
+//I would stick with the original code because it is simple and does not need any more additions or subtractions to it.
 
 
 
 
 
 // Reflection
-// 
-// 
+// What parts of your strategy worked? What problems did you face?
+// It helped that I created a simple strategy that allowed me create actions that can make sense to someone reading the code.
+// I didn't encounter too many problems.
+//What questions did you have while coding? What resources did you find to help you answer them?
+// I relied on the JavaScript material to answer my questions, mainly regarding how to create new variables and assign them to be objects.
+//What concepts are you having trouble with, or did you just figure something out? If so, what?
+//I learned how the methods and functions we use to manipulate objects work.
+//Did you learn any new skills or tricks?
+//How confident are you with each of the learning objectives?
+//Really confident.
+//Which parts of the challenge did you enjoy?
+//Writing code
+//Which parts of the challenge did you find tedious?
+// None!
 // 
 // 
 // 
