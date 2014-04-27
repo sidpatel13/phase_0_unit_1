@@ -15,217 +15,76 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
-// Var adam = {
-          object={};
-}
+ var adam = {}
+
 
 2. Give adam a name property with the value "Adam".
-Var adam = {
-          object={};
-          name:"Adam";
-}
-
+ adam.name = "Adam"
 
 3. Add a spouse property to terah and assign it the value of adam.
 
-var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 130,
-  hairColor: "brown",
-  eyeColor: "brown",
-
-}
-
+terah.spouse = adam
 
 4. Change the value of the terah weight property to 125.
-var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 125,
-  hairColor: "brown",
-  eyeColor: "brown",
-  spouse: adam;
-}
+terah.weight = 125
 
 
 
 5. Remove the eyeColor property from terah.
-var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 130,
-  hairColor: "brown",
-  spouse: adam;
-}
+
+delete terah.eyeColor
 
 
 6. Add a spouse property to adam and assign it the value of terah.
-Var adam = {
-  object:{};
-  name:"Adam";
-  spouse: terah;
-}
+
+adam.spouse = terah
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
 
-var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 125,
-  hairColor: "brown",
-  spouse: adam;
-  children: function() {
-        object={};
-  }
-}
-***check children
+terah.children = {}
 
 
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
 
-  var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 125,
-  hairColor: "brown",
-  spouse: adam;
-  children: function() {
-        object={};
-            carson: function(object) {
-                  object= {'Carson'};  
-        }
-  }
+terah.children.carson = {name:Carson}
 
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
 
 
-var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 125,
-  hairColor: "brown",
-  spouse: adam;
-  children: function() {
-        object={};
-        carson: function(object) {
-                  object= {'Carson'};  
-        }
-        carter: function(object) {
-                  object= {'Carson'};
-        }
-  }
+terah.children.carter = {name:Carter}
 
 
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
 
-var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 130,
-  hairColor: "brown",
-  spouse: adam;
-  children: function() {
-        object={};
-        carson: function(object) {
-                  object= {'Carson'};  
-        }
-        carter: function(object) {
-                  object= {'Carter'};
-        }
-        colton: function(object) {
-                  object= {'Colton'};
-        }
-  }
+terah.children.colton = {name:Colton}
 
 
 
 11. Add a children property to adam and assign it the value of terah children.
 
-  Var adam = {
-  object:{};
-  name:"Adam";
-  spouse: terah;
-  children: function() {
-        object={};
-        carson: function(object) {
-                  object= {'Carson'};  
-        }
-        carter: function(object) {
-                  object= {'Carter'};
-        }
-        colton: function(object) {
-                  object= {'Colton'};
-        }
-}
+adam.children = terah.children
+ 
 */
 
 // __________________________________________
 // Write your code below.
-function Adam(spouse) {
-    if (spouse == "Terah") {
-      return spouse
-    } else {
-      return "Sorry wrong Spouse name!"
-    }
-  }
 
-  var adam = {
-  object:{},
-  name:"Adam",
-  spouse: Adam("Terah"),
-  children: {
-          carson : {
-            name: "Carson"
-          },
-          carter: {
-            name: "Carter"
-          },
-          colton: {
-            name: "Colton"
-          }
-  }         
-};
-
-function Terah(spouse) {
-    if (spouse == "Adam") {
-      return spouse;
-    } else {
-      return "Sorry, not the spouse" + spouse;
-    }
-  }
-
-var terah = {
-  name: "Terah",
-  age: 32,
-  height: 66,
-  weight: 125,
-  hairColor: "brown",
-  spouse: Terah("Adam"),
-  children: {
-          carson : {
-            name: "Carson"
-          },
-          carter: {
-            name: "Carter"
-          },
-          colton: {
-            name: "Colton"
-          }
-  }     
-};
-  
+ var adam = {};
+ adam.name = "Adam";
+ terah.spouse = adam;
+ terah.weight = 125;
+ delete terah.eyeColor;
+ adam.spouse = terah;
+ terah.children = {};
+ terah.children.carson = {name:'Carson'};
+ terah.children.carter = {name:'Carter'};
+ terah.children.colton = {name:'Colton'};
+ adam.children = terah.children;
+ 
 
 
 
