@@ -71,7 +71,7 @@ for (var i = 0; i < clients.length; i++) {
 //How confident are you with each of the learning objectives?
 //I have a good amount of confidence with each of the learning objectives.
 //Which parts of the challenge did you enjoy?
-//I think navigating was fun, especially since Drew was such a great driver. I felt he was already knew how to do parts of
+//I think navigating was fun, especially since Adam was such a great driver. I felt he was already knew how to do parts of
 //the problem on his own, but didn't overstep any boundaries and allowed me to guide him. 
 //Which parts of the challenge did you find tedious?
 //I think testing our code to ensure it would work was a bit tedious especially since we had small little syntax errors.
